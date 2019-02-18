@@ -15,7 +15,8 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 // 60 minutos
 // 24 horas
 // 30 dias
-process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
+//48h (48horas)
+process.env.CADUCIDAD_TOKEN = '48h';
 
 //==================
 // Seed de autotenticacion
@@ -38,4 +39,4 @@ process.env.URLDB = urlDB;
 //==================
 //  Google Client ID
 //==================
-process.env.CLIENT_ID = process.env.CLIENT_ID || '806074740442-0c88ab9i4h4r6uvpi0rk40j5o74puvbf.apps.googleusercontent.com';
+process.env.CLIENT_ID = process.env.CLIENT_ID || '806074740442-0c88ab9i4h4r6uvpi0rk40j5o74puvbf.apps.googleusercontent.com'
